@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SampleProduct.Models;
+using Microsoft.Extensions.Logging;
 
 namespace SampleProduct.Controllers
 {
@@ -12,6 +13,11 @@ namespace SampleProduct.Controllers
     [Route("api/[controller]")]
     public class ProductsController : Controller
     {
+        ILogger _log;
+        public ProductsController(ILogger<ProductsController>  log)
+        {
+            _log = log;    
+        }
         //here we are creating sample in-memory , but actually it will be coming  from the database
         public static List<Product> prd = new List<Product>(new[] {
                new Product(){ Id=1, Name="Mazda3", Quantity =3},
@@ -27,6 +33,8 @@ namespace SampleProduct.Controllers
         [HttpGet]
         public List<Product> GetAllProduct()
         {
+            _log.LogCritical("Somethign in here");
+            _log.LogInformation("I am inside get all product");
             return prd;
         }
 
@@ -49,7 +57,7 @@ namespace SampleProduct.Controllers
 
             catch(Exception e)
             {
-                Console.WriteLine("Exceptions in the code" + e.Message);
+                _log.LogError("Exceptions in the code" + e.Message);
                 return null;
             }
         }
