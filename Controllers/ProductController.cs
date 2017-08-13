@@ -50,6 +50,8 @@ namespace SampleProduct.Controllers
                 }
                 else
                 {
+                    // love the string interpolation in C#
+                    _log.LogCritical($"the result of product id {id}");
                     return Ok(product);
                 }
 
