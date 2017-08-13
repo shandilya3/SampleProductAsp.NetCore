@@ -7,7 +7,7 @@ using SampleProduct.Models;
 
 namespace SampleProduct.Controllers
 {
-
+    // return  data in xml 
     [Produces("application/xml")]
     [Route("api/[controller]")]
     public class ProductsController : Controller
@@ -23,8 +23,7 @@ namespace SampleProduct.Controllers
                new Product(){ Id=7, Name="Honda civic 2017", Quantity =390},
 
             });
-        
-
+   
         [HttpGet]
         public List<Product> GetAllProduct()
         {
