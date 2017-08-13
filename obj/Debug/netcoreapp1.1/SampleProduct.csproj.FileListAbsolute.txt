@@ -1,0 +1,9 @@
+C:\Users\happy.shandilya\Lab\ASP.NetCore\SampleProduct\bin\Debug\netcoreapp1.1\SampleProduct.deps.json
+C:\Users\happy.shandilya\Lab\ASP.NetCore\SampleProduct\bin\Debug\netcoreapp1.1\SampleProduct.runtimeconfig.json
+C:\Users\happy.shandilya\Lab\ASP.NetCore\SampleProduct\bin\Debug\netcoreapp1.1\SampleProduct.runtimeconfig.dev.json
+C:\Users\happy.shandilya\Lab\ASP.NetCore\SampleProduct\bin\Debug\netcoreapp1.1\SampleProduct.dll
+C:\Users\happy.shandilya\Lab\ASP.NetCore\SampleProduct\bin\Debug\netcoreapp1.1\SampleProduct.pdb
+C:\Users\happy.shandilya\Lab\ASP.NetCore\SampleProduct\obj\Debug\netcoreapp1.1\SampleProduct.csprojResolveAssemblyReference.cache
+C:\Users\happy.shandilya\Lab\ASP.NetCore\SampleProduct\obj\Debug\netcoreapp1.1\SampleProduct.AssemblyInfo.cs
+C:\Users\happy.shandilya\Lab\ASP.NetCore\SampleProduct\obj\Debug\netcoreapp1.1\SampleProduct.dll
+C:\Users\happy.shandilya\Lab\ASP.NetCore\SampleProduct\obj\Debug\netcoreapp1.1\SampleProduct.pdb
